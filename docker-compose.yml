@@ -99,6 +99,7 @@ services:
       retries: 3
       timeout: 5s
   gotenberg:
+    restart: always
     image: gotenberg/gotenberg:8
     networks:
       - internal
