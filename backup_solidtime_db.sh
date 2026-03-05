@@ -5,7 +5,7 @@ DB_USERNAME="solidtime"
 DB_DATABASE="solidtime"
 
 # --- Configurações ---
-CONTAINER_NAME="0-docker-traefik-with-database-database-1" # Verifique o nome do seu contêiner com 'docker ps' se for diferente
+CONTAINER_NAME="solidtime-database-1" # Verifique o nome do seu contêiner com 'docker ps' se for diferente
 BACKUP_DIR="/home/leonardo/Documentos/Backups/Solidtime" # <-- MUDAR ESTE CAMINHO PARA SUA PASTA REAL!
 
 # Nome do arquivo de backup com timestamp
