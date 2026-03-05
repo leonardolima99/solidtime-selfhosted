@@ -111,4 +111,6 @@ networks:
   internal:
 volumes:
   database-storage:
+    name: 0-docker-traefik-with-database_database-storage
   app-storage:
+    name: 0-docker-traefik-with-solidtime_app-storage
